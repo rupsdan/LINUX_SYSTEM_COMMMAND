@@ -1,0 +1,23 @@
+How to check system specifications in Ubuntu Server 20.04 with the CLI/ TERMINAL
+$ sudo lshw -short   ----------(lshw---HardWare LiSter for Linux)
+$ sudo apt-get install lshw
+$ sudo lshw -short 
+$ sudo lshw -html > server_specs.html
+
+sudo lshw -C [component name]
+$ sudo lshw -C network
+$ sudo lshw -C volume
+$ sudo lshw -C processor
+$ sudo lshw -C sound
+$ sudo lshw -class processor
+$ sudo lshw -class disk
+$ sudo lshw -class network
+$ sudo lshw -class memory
+$ sudo lshw -class storage -class power -class volume
+$ sudo lshw -short -class processor
+$ lshw -sanitize
+$ sudo lshw-gtk
+$ sudo apt install hardinfo
+$ hardinfo -r
+$ hardinfo -l
+$ dsa
