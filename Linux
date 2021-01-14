@@ -21,3 +21,9 @@ $ sudo apt install hardinfo
 $ hardinfo -r
 $ hardinfo -l
 $ dsa
+
+
+*********************COPY FILES OR FOLDERS FROM LOCAL TO SSH SERVER***************************
+$ scp <file_name> <user_name>@<ip_address>:/<path of ssh machine where do you want to store your file>
+
+$ scp -r <folder_name> <user_name>@<ip_address>:/<Path of ssh machine where do you want to store your file>
